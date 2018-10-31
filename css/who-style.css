@@ -1,0 +1,134 @@
+/*
+The default style sheet for the entire site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+/*Note that this approach is no longer recommended. Use a reset.css file instead.*/
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    font-family: 'Notable', sans-serif;
+    background-color: ghostwhite;
+    margin: 0 auto;
+    width:1200px;
+}
+
+header {
+    font-family: 'Notable', sans-serif;
+    font-size: 120%;
+    background-color: ghostwhite;
+    min-height: 250px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+nav ul {
+    font-family: 'Notable', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 100%
+    font-family: 'Notable', sans-serif;
+    
+    background-color: ghostwhite;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+
+nav li {
+    font-family: 'Notable', sans-serif;
+    color: black;
+    text-decoration: none;
+    display:inline-block;
+    margin: 1.5em 0;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black
+}
+
+link {
+    font-family: 'Notable', sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-links:visited {
+    color: black;
+    text-decoration: none;
+}
+
+main { 
+    text-align: right;
+  
+}
+
+footer {
+    font-size: 100%
+    background-color: ghostwhite;
+    text-align: center;
+    min-height: 70px;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer li {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+h1 {
+    font-family: 'Notable', sans-serif;
+    font-size: 2.1875em;
+    padding: 75px 25px 25px 15px;
+
+}
+h2 {
+    font-family:'Notable', sans-serif; 
+    font-size:1.75em;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+h3 {min-height: 400px;
+    text-align: justify;
+    line-height: 3
+}
+
+article {
+    background-color: ghostwhite
+    font-size:1.75em;
+    padding-right: 100px;    
+    padding-bottom: 20px;
+    min-height: 1000px;
+}
+
+p {
+    color: ghostwhite;
+    font-size: .9375em;
+    padding: 50px;
+    padding-left: 100px;
+    
+}  
+img {
+    float:left;
+    padding: 50px 50px 50px 50px 
+}
